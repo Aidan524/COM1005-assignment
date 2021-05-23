@@ -31,10 +31,8 @@ ArrayList<SearchState> getSuccessors(Search searcher) {
 	RamblersSearch rsearcher = (RamblersSearch) searcher;
     TerrainMap map = rsearcher.getMap();   
     
-    int[][]arrayOfPixel = new int[16][16];
-    for(int row = 0; row < arrayOfPixel.length; row ++) {
-    	for(int column = 0; column < arrayOfPixel[row].length; column ++) {}
-    }
+    
+   
     ArrayList<SearchState>succs = new ArrayList<SearchState>();
     
     
